@@ -1,6 +1,6 @@
-# 🚗 Hybrid Vehicle Navigation Using GPS, IMU & Sensor Fusion
+# Hybrid Vehicle Navigation Using GPS, IMU & Sensor Fusion
 
-## 📌 Introduction
+##  Introduction
 
 This project focuses on building a **robust vehicle tracking system** by combining:
 - **GPS (Global Positioning System)** data
@@ -15,7 +15,7 @@ The project provides two distinct implementations for different use cases and co
 
 ---
 
-## 🎯 Objective
+##  Objective
 
 The goal is to develop navigation models that:
 - Enhance **location accuracy** and **reliability** during GPS degradation
@@ -25,7 +25,7 @@ The goal is to develop navigation models that:
 
 ---
 
-## 🔍 Why This Matters
+##  Why This Matters
 
 Real-world environments like tunnels, cities with tall buildings, or forests can cause:
 - GPS **signal loss** or **multipath errors**
@@ -38,11 +38,11 @@ By fusing IMU data with GPS and applying **sensor fusion techniques**, we can:
 
 ---
 
-## 🏗️ Project Structure
+##  Project Structure
 
 This repository contains two main implementations:
 
-### 📂 **Main Branch** - Advanced Hybrid System
+###  **Main Branch** - Advanced Hybrid System
 ```plaintext
 hybrid-vehicle-navigation/
 ├── data/
@@ -66,7 +66,7 @@ hybrid-vehicle-navigation/
 └── README.md
 ```
 
-### 📂 **DR-Only Branch** - Kalman Filter Focus
+###  **DR-Only Branch** - Kalman Filter Focus
 ```plaintext
 dr-only/
 ├── data/
@@ -91,7 +91,7 @@ dr-only/
 
 ---
 
-## 🔧 Implementation Details
+##  Implementation Details
 
 ### **Main Branch Features**
 - **Advanced ML Models**: LSTM networks for trajectory prediction
@@ -108,7 +108,7 @@ dr-only/
 
 ---
 
-## 📦 Dependencies
+## Dependencies
 
 Both implementations require:
 ```bash
@@ -126,7 +126,7 @@ pip install -r requirements.txt
 
 ---
 
-## ▶️ Quick Start
+##  Quick Start
 
 ### **Main Branch Usage**
 ```bash
@@ -151,7 +151,7 @@ python scripts/04_compare_and_plot.py
 
 ---
 
-## 📊 Performance Comparison
+##  Performance Comparison
 
 ### **Main Branch Results**
 | Method          | RMSE (meters) |
@@ -167,7 +167,7 @@ python scripts/04_compare_and_plot.py
 
 ---
 
-## 🔬 Techniques Implemented
+##  Techniques Implemented
 
 ### **Sensor Fusion Methods**
 - **Dead Reckoning**: IMU-based position prediction
@@ -183,7 +183,7 @@ python scripts/04_compare_and_plot.py
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **Autonomous Vehicles**: Navigation in GPS-denied environments
 - **Fleet Management**: Enhanced tracking in urban canyons
@@ -193,7 +193,7 @@ python scripts/04_compare_and_plot.py
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Choose Your Branch**:
    - `main`: For comprehensive ML-based hybrid navigation
@@ -211,7 +211,7 @@ python scripts/04_compare_and_plot.py
 
 ---
 
-## 🧠 Future Enhancements
+##  Future Enhancements
 
 ### **Technical Roadmap**
 - **Real-time Integration**: Live sensor data processing
@@ -227,7 +227,7 @@ python scripts/04_compare_and_plot.py
 
 ---
 
-## 📄 Documentation
+##  Documentation
 
 Each branch contains detailed documentation:
 - **Code Comments**: Inline explanations of algorithms
